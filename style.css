@@ -38,22 +38,19 @@ form {
 input {
     width: 100%;
     padding: 1px;
-    border: 3px solid #f8fafb;
+    border: 5px solid #f8fafb;
     border-radius: 5px;
 
 }
 
 
 input:focus {
-    border: 3px solid #2c3e50;
+    border: 5px solid #2c3e50;
     background-color: #e9e9c5;
     outline: none;
 }
 
-:invalid {
-    border: 2px solid red;
-    background-color: #fff0f0;
-}
+
 
 
 button {
