@@ -1,24 +1,63 @@
-/* --- Starter Styles --- */
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #dfe8c9;
     color: #333;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-h1 {
-    text-align: center;
+#title-head {
+    text-align:center;
     color: #2c3e50;
+    padding: 20px;
+    border: 20px #0d671e inset;
+    border-radius: 10px;
+    max-width: 400px;
+    
 }
 
-/* --- TASK 3: Style your Form and .form-group below --- */
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 20px #0d671e inset;
+    border-radius: 10px;
+
+}
+
+.form-group {
+    margin-bottom:30px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 1px;
+    border: 3px solid #f8fafb;
+    border-radius: 5px;
+
+}
 
 
+input:focus {
+    border: 3px solid #2c3e50;
+    background-color: #e9e9c5;
+    outline: none;
+}
 
-/* --- TASK 3: Add your :invalid visual validation below --- */
+:invalid {
+    border: 2px solid red;
+    background-color: #fff0f0;
+}
 
 
+button {
+    cursor: crosshair;
+}
 
 /* --- EXTENSIONS: Add your :focus and Success Message styles below --- */
